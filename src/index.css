@@ -1,0 +1,102 @@
+@import url('./pages/styles/vars.module.css');
+* {
+	margin: 0;
+	padding: 0;
+
+}
+*::-webkit-scrollbar {
+	background-color: rgb(15, 15, 15);
+	width: 10px;
+}
+*::-webkit-scrollbar-thumb {
+	background-color: #161616;
+	border-radius: 9em;
+ 
+}
+body {
+overflow-x: hidden;
+  font-family: 'Oswald',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+main {
+	overflow: hidden;
+	min-height: 100vh;
+	color: #fff;
+	background:  #0D0D0D;
+}
+.active {
+	display: flex;
+	flex-direction: column;
+ 	align-items: center;
+}
+.active svg {
+	fill: #8C13C2 !important;
+}
+.active div{
+	margin-top: 5px;
+	height: 6px;
+	width: 6px;
+	border-radius: 50%;
+	background-color: #8C13C2;
+
+}
+.basket  a {
+	margin-left: 20px !important;
+}
+.basket  a svg{
+	transform: translateY(2px);
+	fill: #fff;
+	transition: .3s ease fill;
+}
+.basket  a svg:hover {
+	fill: #8C13C2;
+}
+.page {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.page-enter {
+	opacity: 0;
+	transform: scale(1.1);
+}
+
+.page-enter-active {
+	opacity: 1;
+	transform: scale(1);
+	transition: opacity 300ms, transform 300ms;
+}
+
+.page-exit {
+	opacity: 1;
+	transform: scale(0);
+}
+
+.page-exit-active {
+	opacity: 0;
+	transform: scale(0.9);
+	transition: opacity 300ms, transform 300ms;
+}
+.content {
+	position: absolute;
+	top: -60px;
+	left: -25%;
+	width: 100vw;
+
+}
+@import url('./pages/styles/basket.module.css');
+@import url('./pages/styles/men.module.css');
+@import url('./pages/styles/shop.module.css');
+@import url('./pages/styles/latest.module.css');
+@import url('./pages/styles/responce.module.css');

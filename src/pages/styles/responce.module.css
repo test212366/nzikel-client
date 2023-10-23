@@ -1,0 +1,1159 @@
+@media (max-width: 1880px) {
+	.men__collection-right {
+		right: 174px;
+	}
+}
+@media (max-width: 1850px) {
+	.shop__logo {
+		left: -230px;
+	}
+	.logo__right {
+		left: 1360px;
+	}
+}
+@media (max-width: 1770px) {
+	.slick-dots {
+		bottom: none;
+	}
+	.logo__right {
+		left: 1300px;
+	}
+	.nikeWomRM {
+		height: 811px;
+		transform: translate(522px, 92px) rotate(20deg);
+  }
+}
+@media (max-width: 1650px) {
+	.logo__right {
+		left: 1250px;
+	}
+	.nikeWomVio {
+		transform: translate(337px, 211px) rotate(20deg);
+		height: 639px;
+	}
+	.nikeWL {
+		height: 1020px;
+		transform: translate(450px, -214px) rotate(20deg);
+  }
+	.nikeWom {
+		height: 392px;
+		transform: translate(480px, 319px) rotate(20deg);
+  }
+	.shop__logo {
+		left: -136px;
+  }
+  .men__collection-right {
+	right: 90px;
+}
+}
+@media (max-width: 1630px) {
+	.prevButton {
+		left: 635px;
+  }
+  .nextButton {
+	right: 634px;
+}
+.logo__right {
+	left: 1202px;
+}
+}
+@media (max-width: 1550px) {
+	.men__collection-right {
+		right: 0;
+  }
+  .men__collection-left {
+	left: 278px;
+}	
+	.shop__logo {
+		left: -78px;
+	}
+	.logo__right {
+		left: 1162px;
+	}
+	.prevButton {
+		left: 557px;
+  }
+  .nextButton {
+	right: 558px;
+}  
+}
+@media (max-width: 1465px) {
+	.nikeWom {
+		height: 367px;
+	}
+	.nikeWomVio {
+		transform: translate(396px, 211px) rotate(20deg);
+		height: 585px;
+  }
+  .nikeWL {
+	height: 985px;
+	transform: translate(450px, -180px) rotate(20deg);
+}
+	.nikeWomRM {
+		height: 743px;
+		transform: translate(555px, 132px) rotate(20deg);
+  }
+	.men__collection-right {
+		right: -17px;
+  }
+  .logo__right {
+	left: 1113px;
+}
+	.leBorn {
+		height: 600px;	  
+	}
+	.TBS {
+		height: 550px;
+	}
+	.men__collection-left h1 {
+		font-size: 65px;
+	}
+	.men__background-p {
+		font-size: 600px;
+	}
+	.social a {
+		margin-right: 49px;
+  }
+  .shop__logo svg {
+	height: 100px;
+  }
+  .menF {
+	height: 900px;
+	transform: translateX(112px);
+  }
+}
+@media (max-width: 1350px) {
+
+	.nikeWom {
+		height: 336px;
+		transform: translate(365px, 319px) rotate(20deg);
+  }
+	.nikeWomRM {
+		height: 743px;
+		transform: translate(378px, 132px) rotate(20deg);
+  }
+	.men__collection-left {
+		left: 141px;
+  }
+  .slick-slider {
+	transform: translateX(140px);
+	}
+	.menF {
+		transform: translateX(-62px);
+  }
+ 
+  .prevButton {
+	left: 509px;
+	bottom: 29px;
+}
+.nextButton {
+	right: 495px;
+	bottom: 28px;
+}
+.nikeWomRM {
+	height: 701px;
+}
+.nikeWomVio {
+	transform: translate(278px, 211px) rotate(20deg);
+	height: 534px;
+}
+.nikeWL {
+	height: 916px;
+	transform: translate(381px, -180px) rotate(20deg);
+}
+	.men__background-p {
+		font-size: 580px;
+  }
+  .shop__logo {
+	left: -17px;
+}
+.logo__right {
+	left: 1081px;
+}
+.men__collection-left h1 {
+	font-size: 60px;
+}
+	.men__collection-right-gen {
+		font-size: 30px;
+	}
+	.men__collection-right h4 {
+		font-size: 45px;
+  	}
+	  .men__collection-right-buy {
+		font-size: 30px;
+	  }
+	  .men__collection-right {
+		right: 13px;
+  }
+  .leBorn {
+	transform: translate(248px, 180px) rotate(-20deg);
+}
+.TBS {
+	transform: translate(379px, 180px) rotate(20deg);
+}
+}
+@media (max-width: 1270px) {
+	.men__collection-left {
+		left: 213px;
+
+  }
+  .slick-dots {
+ 
+	bottom: 0px;
+	left: 69px;
+}
+  .nikeWom {
+	height: 309px;
+	transform: translate(405px, 354px) rotate(20deg);
+}
+.nikeWL {
+	height: 860px;
+	transform: translate(381px, -98px) rotate(20deg);
+}
+.nikeWomRM {
+	height: 659px;
+	transform: translate(411px, 188px) rotate(20deg);
+}
+.nikeWomVio {
+	transform: translate(330px, 269px) rotate(20deg);
+	height: 504px;
+}
+  .men__collection-right {
+	right: -25px;
+}
+	.men__background-p {
+		transform: translate(86px, 14px);
+	}
+	.nextButton {
+		right: 369px;
+  }
+  .nextButton {
+	bottom: -12px;
+	}
+	.prevButton {
+		left: 509px;
+		bottom: -11px;
+  }
+  footer {
+	bottom: 60px;
+  }
+  .logo__right {
+	left: 1054px;
+}
+}
+@media (max-width: 1250px) {
+	.nikeWomRM {
+		height: 654px;
+		transform: translate(374px, 188px) rotate(20deg);
+  }
+	.slick-list {
+		transform: translateX(136px) !important;
+	}
+	.men__background-p {
+		transform: translate(200px, 14px);
+  }
+	.men__background-p {
+		font-size: 500px;
+  }
+  .men__collection-right {
+	right: 44px;
+	top: 505px;
+}
+   
+	.nextButton {
+	bottom: -30px;
+	 
+}
+	 
+	.prevButton {
+		bottom: -46px;
+		left: 582px;
+  }
+	.leBorn {
+		height: 560px;
+		
+			transform: translate(183px, 180px) rotate(-20deg);
+	
+	}
+	.TBS {
+		height: 490px;
+		transform: translate(388px, 205px) rotate(27deg);
+	}
+	.nextButton {
+		bottom: -45px;
+		right: 269px;
+  }
+  .men__collection-left {
+	left: 150px;
+	}
+	.menF {
+		height: 850px;
+		transform: translateX(-112px);
+  }
+  .slick-dots {
+	bottom: -35px !important;
+	left: 159px;
+}
+.shop__logo {
+	left: 33px;
+}
+}
+@media (max-width: 1130px) {
+	.see__shop-item {
+		max-width: 580px;
+	}
+	.see__shop-item img {
+		width: 536px;
+		height: 306px;
+	}
+	.logo__right {
+		left: 999px;
+  }
+  .nikeWomVio {
+	transform: translate(252px, 309px) rotate(20deg);
+	height: 434px;
+}
+.nikeWL {
+	height: 748px;
+	transform: translate(304px, -2px) rotate(20deg);
+}
+.nikeWom {
+	height: 277px;
+	transform: translate(332px, 396px) rotate(20deg);
+}
+  .nikeWomRM {
+	height: 567px;
+	transform: translate(309px, 227px) rotate(20deg);
+}
+  .menF {
+	transform: translate(-58px ,94px);
+	height: 740px;
+  }	
+  .prevButton {
+	bottom: -106px;
+	left: 524px;
+	}
+	.nextButton {
+		bottom: -111px;
+		right: 236px;
+  }
+  .slick-dots {
+	bottom: -97px !important;
+	left: 146px;
+}
+	.shop__search {
+		margin-right: 0px !important;
+	}
+	.shop__logo {
+		top: 50px;
+	}
+	footer {
+		right: 8px;
+  }
+  .men__collection-right {
+	top: 520px;
+  }
+  .men__collection-right h4 {
+		font-size: 40px;
+	}
+	.leBorn {
+		height: 505px;
+		transform: translate(159px, 227px) rotate(-20deg);
+	}
+	.men__collection-right-sizes {
+		margin-top: 7px;
+	}
+	.shop__logo svg {
+		height: 86px;
+  }
+  .TBS {
+	height: 431px;
+	transform: translate(369px, 256px) rotate(30deg);
+}
+}
+@media (max-width: 1070px) {
+	.basket__items-title {
+		padding: 10px 0 0 10px;
+  }
+  .basket__items-results {
+	padding-left: 10px;
+}
+.basket__items-liked-title {
+	padding-left: 10px;
+}
+	.men__collection-left {
+		left: 35px;
+  }
+  .nikeWomVio {
+	transform: translate(159px, 309px) rotate(20deg);
+}
+.nikeWL {
+	transform: translate(205px, -2px) rotate(20deg);
+}
+.nikeWom {
+ 
+	transform: translate(234px, 396px) rotate(20deg);
+}
+  .nikeWomRM {
+	transform: translate(217px, 227px) rotate(20deg);
+}
+  .men__background-p {
+	transform: translate(132px, 14px);
+}
+.menF {
+	transform: translate(-135px ,94px);
+}
+	.logo__right {
+		left: 945px;
+  }
+  .prevButton {
+	left: 493px;
+	}
+	.nextButton {
+		bottom: -108px;
+		right: 221px;
+  }
+  .leBorn {
+	transform: translate(79px, 227px) rotate(-20deg);
+}
+.TBS {
+	transform: translate(289px, 256px) rotate(30deg);
+}
+}
+@media (max-width: 1024px) {
+	.image__wrapper{ 
+		width:  400px;
+	}
+	.logo__right {
+		left: 905px;
+  }
+  .men__collection-right {
+	right: -2px;
+  }
+}
+@media (max-width: 975px) {
+	.shop__logo {
+		left: -11px;
+  }
+	.nikeWomRM {
+		transform: translate(151px, 227px) rotate(20deg);
+  }
+	.logo__right {
+		left: 856px;
+  }
+  .men__collection-left {
+	left: 4px;
+}	
+.menF {
+	transform: translate(-216px ,94px);
+}
+  .men__collection-left h1 {
+	font-size: 50px;
+}
+	.men__collection-right-gen {
+		font-size: 28px;
+	}
+	.men-collection-right-add-basket {
+		margin-top: 32px;
+	}
+	.men__collection-right {
+		right: 14px;
+  }
+  .men__background-p {
+	transform: translate(63px, 14px);
+}
+.shop__search:hover .shop__search-target {
+	left: 3%;
+}
+.prevButton {
+	left: 396px;
+}
+.slick-dots {
+ 	left: 88px;
+}
+.leBorn {
+	transform: translate(30px, 227px) rotate(-20deg);
+}
+.TBS {
+	transform: translate(220px, 256px) rotate(30deg);
+}
+.men__collection-left h1 {
+	font-size: 45px;
+}
+.men-collection-right-gen {
+	font-size: 28px;
+}
+.men__collection-right h4 {
+	font-size: 35px;
+}
+}
+@media (max-width: 924px) {
+	.see__shop-item img {
+		width: 100%;
+	}
+	.image__wrapper {
+		width: 498px;
+  }
+	.nikeWom {
+		transform: translate(115px, 396px) rotate(20deg);
+  }
+  .nikeWomVio {
+	transform: translate(81px, 309px) rotate(20deg);
+}
+	.men__background-p {
+		font-size: 470px;
+  }
+  .logo__right {
+	left: 810px;
+}
+.nikeWL {
+	transform: translate(102px, -2px) rotate(20deg);
+}
+.shop__search {
+	margin-right: 10px !important;
+}
+.shop__nav li {
+	margin-left: 7px;
+}
+li.basket {
+	margin-left: 0 !important;
+}
+.shop__nav li {
+	margin-left: 20px;
+}
+	.men__collection-left {
+		background-color: #161616;
+		border-radius: 20px;
+		width: 200px;
+		padding: 10px;
+		opacity: .7;
+	}
+	footer {
+		right: -21px;
+  }
+	.men__collection-right {
+		right: 61px;
+
+		background-color: #161616;
+		border-radius: 20px;
+		padding: 10px;
+		opacity: .7;
+	}
+	.shop__search-target {
+		transform: translate(194px,46px);
+	}
+}
+@media (max-width: 864px) {
+	.image__wrapper {
+		width: 601px;
+  }
+  .basket__items-buy {
+	right: 23px;
+  }
+	.shop__selection {
+		z-index: 5;
+	}
+	.logo__right {
+		left: 752px;
+  }
+  .prevButton {
+	left: 358px;
+}	
+.nextButton {
+
+	right: 171px;
+}
+footer {
+	right: -39px;
+}
+.men__collection-right {
+	right: 77px;
+}
+.menF {
+	transform: translate(-261px ,94px);
+}
+.TBS {
+	transform: translate(150px, 256px) rotate(30deg);
+}
+.slick-list {
+	transform: translateX(84px) !important;
+}
+}
+@media (max-width: 800px) {
+	.shop__search-products.productsView {
+		top: 120px;
+	}
+	.image__wrapper {
+		width: 227px;
+  }
+  .basket__item-desc {
+		width: 374px;
+  }
+	.basket__login {
+		top: 82px;
+	}
+	 
+	.basket__items-title {
+		padding-top: 105px;
+	}
+	.latest__title {
+		padding-top: 105px;
+	}
+	.shop__item {
+		padding-bottom: 10px;
+		max-width: 172px;
+	}
+	.shop__item img {
+		width: 170px;
+	}
+	.shop__content {
+		padding-top: 105px;
+	}
+	.logo__right {
+		left: 682px;
+  }
+  .prevButton {
+	left: 217px;
+}
+.slick-dots {
+	left: 13px;
+}
+.nextButton {
+	right: 187px;
+}
+footer {
+	right: -13px;
+}
+.men__background-p {
+	transform: translate(2px, 132px);
+}
+.leBorn {
+	transform: translate(-34px, 227px) rotate(-20deg);
+}
+.logo__right {
+	z-index: 10;
+}
+.shop__nav {
+	position: absolute;
+	top: -50px;
+	left: 140px;
+	transition: .3s ease all;
+	opacity: 0;
+}
+.openHeader {
+	top: 0;
+	z-index: 10;
+	opacity: 1;
+}
+.shop__search-target {
+	transform: translate(-1px,46px);
+}
+.men__collection-right-buy {
+	font-size: 25px;
+}
+}
+@media (max-width: 744px) {
+	.basket__item-desc {
+		font-size: 13px;
+	}
+	.basket__item {
+		padding: 7px;
+	}
+	.basket__item-unik {
+		font-size: 12px;
+	}
+}
+@media (max-width: 715px) {
+	.basket__item-desc {
+		width: 317px;
+	}
+	.menF {
+		height: 695px;
+		transform: translate(-273px ,120px); 
+	}
+	.nikeWL {
+		transform: translate(36px, 12px) rotate(20deg);
+		height: 695px;
+	}
+	.nikeWom {
+		transform: translate(79px, 396px) rotate(20deg);
+		height: 240px;
+	}
+	.nikeWomVio {
+		height: 383px;
+		transform: translate(21px, 319px) rotate(20deg);
+  }
+	.nikeWomRM {
+		transform: translate(97px, 262px) rotate(20deg);
+		height: 504px;
+	}
+	.logo__right {
+		left: 618px;
+
+	}
+	.shop__nav {
+		left: 11px;
+	}
+	.slick-dots {
+		bottom: -48px !important;
+	}
+	.prevButton {
+		bottom: -58px;
+		left: 196px;
+	}
+	.nextButton {
+		right: 151px;
+		bottom: -57px;
+	}
+	.men__background-p {
+		font-size: 420px;
+  }
+  .men__collection-right {
+	top: 483px;
+}
+.leBorn {
+	height: 467px;
+}
+.TBS {
+	height: 389px;
+	transform: translate(108px, 256px) rotate(30deg);
+}
+}
+@media (max-width: 686px) {
+	.image__wrapper {
+		width: 189px;
+  }
+	 
+	.menF {
+		height: 645px;
+	}
+ 
+	.leBorn {
+		height: 419px;
+		
+		transform: translate(-41px, 238px) rotate(-20deg);
+	}	
+	.TBS {
+		height: 356px;
+		transform: translate(104px, 270px) rotate(30deg);
+  } 
+	.men__background-p {
+		font-size: 400px;
+  }
+   
+.men__collection-left h1 {
+	font-size: 40px;
+}
+.men-collection-right-gen {
+	font-size: 25px;
+}
+	.men-collection-right-add-basket {
+		padding: 11px 17px;
+	}
+	.men__collection-left{ 
+		width: 156px;
+	}
+	.select-size {
+		font-size: 20px;
+	}
+	.select-color {
+		font-size: 20px;
+	}
+	.men__collection-right {
+		top: 445px;
+		width: 152px;
+	}
+	
+}
+@media (max-width: 650px) {
+	.basket__item-price {
+		font-size: 22px;
+	}
+	.basket__item-title {
+		font-size: 20px;
+	}
+	.image__wrapper {
+		width: 172px;
+  }
+  .basket__item-desc {
+	width: 238px;
+}
+.basket__item-desc {
+	height: 80px;
+	overflow: hidden;
+}
+	.shop__results {
+		padding: 5px;
+  }
+  .shop__item {
+	margin: 20px 10px -7px 0;
+  }
+	.slick-list {
+		transform: translate(23px, 42px) !important;
+  }
+  .menF {
+	height: 621px;
+	transform: translate(-212px ,120px);
+}
+.men__collection-left {
+	left: 19px;
+}
+.men__collection-right {
+	top: 399px;
+	right: 12px;
+}
+.nextButton {
+	right: 128px;
+	bottom: -90px;
+}
+.slick-dots {
+	bottom: -80px !important;
+}
+.prevButton {
+	bottom: -89px;
+	left: 151px;
+}
+.leBorn {
+	height: 385px;
+	transform: translate(44px, 229px) rotate(-20deg);
+}
+.TBS {
+	height: 327px;
+	transform: translate(160px, 270px) rotate(30deg);
+}
+.logo__right {
+	left: 566px;
+}
+.men__background-p {
+	font-size: 380px;
+}
+}
+@media (max-width: 620px) {
+	.see__shop-item {
+		left: 0;
+		width: 86%;
+		transform: none;
+		margin: 20px 20px 0 20px;
+	}
+	.see__shop-item-desc {
+		font-size: 13px;
+  }
+  .see__shop-item-price {
+	font-size: 20px;
+  }
+  .see__shop-item-subtitle {
+	padding: 2px;
+  }
+  
+	.shop__selection {
+		padding: 0 33px;
+  }
+	.shop__item img {
+		width: 138px;
+  }
+  .shop__items-colors {
+	font-size: 13px;
+  }
+  .seeMore {
+	height: 16px;
+  }
+  .shop__item-subtitle {
+	font-size: 13px;
+  }
+	.shop__item {
+	
+		max-width: 136px;
+  }
+	.men__background-p {
+		font-size: 360px;
+  }
+  .nikeWL {
+	height: 647px;
+}
+.nikeWomVio {
+	height: 356px;
+	transform: translate(43px, 300px) rotate(20deg);
+}
+.nikeWom {
+	height: 211px;
+}
+.nikeWomRM {
+	height: 442px;
+}
+  	.menF {
+		transform: translate(-242px ,113px);
+	}
+	.men__collection-right {
+	
+		right: 33px;
+  }
+}
+@media (max-width: 593px) {
+	.shop__nav li {
+		margin: 19px;
+	}
+	.logo__right {
+		left: 512px;
+  }
+  .men__collection-right h4 {
+	font-size: 30px;
+}
+.men__background-p {
+	font-size: 340px;
+}
+	.menF {
+		height: 584px;
+	}
+	.men__collection-left {
+		top: 190px;
+	}
+	.men__collection-right {
+		top: 372px;
+	}
+	.nextButton {
+		bottom: -125px;
+  }
+  .slick-dots {
+	bottom: -115px !important;
+}
+  .prevButton {
+	bottom: -125px;
+  }
+  .leBorn {
+	height: 362px;
+	transform: translate(-20px, 223px) rotate(-20deg);
+}
+
+.TBS {
+	height: 293px;
+	transform: translate(111px, 270px) rotate(30deg);
+}
+}
+@media (max-width: 545px) {
+	.basket__item-desc {
+		width: 193px;
+  }
+	.shop__search-products {
+		width: 110%;
+	}
+	.shop__item {
+		padding: 0;
+	}
+	.shop__item-subtitle {
+		font-size: 11px;
+		padding-left: 5px;
+  }
+  	.shop__item-title {
+		font-size: 14px;
+		padding-left: 5px;
+	}
+	.shop__item img {
+		width: 134px;
+  }
+	.seeMore {
+
+		top: 192px;
+	}
+	.shop__item-price {
+		font-size: 15px;
+		padding-left: 5px;
+	}
+	.shop__items-colors {
+		margin-top: -1px;
+		padding-left: 5px;
+	}  
+	.shop__button-item {
+		padding: 6px;
+	}
+	.nikeWom {
+		transform: translate(74px, 288px) rotate(20deg);
+		height: 193px;
+	}  
+	.nikeWomRM {
+		transform: translate(79px, 197px) rotate(20deg);
+		height: 406px;
+	}
+	.nikeWomVio {
+		height: 298px;
+		transform: translate(43px, 251px) rotate(20deg);
+  }
+  .nikeWL {
+	transform: translate(36px, -36px) rotate(20deg);
+	height: 587px;
+}
+	.men__collection-left {
+		left: -3px;
+  }
+  .logo__right {
+	left: 473px;
+}
+.men__background-p {
+	font-size: 310px;
+}
+.menF {
+	height: 545px;
+	
+		transform: translate(-206px ,58px);
+
+}
+.men__collection-right {
+	top: 288px;
+	right: 9px;
+}
+.shop__logo {
+	left: -12px;
+}
+.slick-list {
+	transform: translate(-2px, 119px) !important;
+}
+	.men__collection-left {
+		top: 123px;
+		left: 8px;
+	}
+	 .TBS {
+		transform: translate(112px, 187px) rotate(30deg);
+ 
+	 }
+	 .leBorn {
+		transform: translate(-9px, 160px) rotate(-20deg);
+	 }
+}
+@media (max-width: 505px) {
+	.basket__item-desc {
+		width: 155px;
+		height: 61px;
+  }
+  .basket__item {
+	margin: 12px;
+  }
+	.nikeWomRM {
+		transform: translate(50px, 197px) rotate(20deg);
+	}
+	.nikeWL {
+		transform: translate(36px, 20px) rotate(20deg);
+		height: 523px;
+  }
+  .nikeWom {
+	transform: translate(45px, 288px) rotate(20deg);
+}
+	.nikeWomVio {
+		transform: translate(-4px, 251px) rotate(20deg);
+	}
+	.logo__right {
+		left: 444px;
+  }
+  .menF {
+	height: 513px;
+	transform: translate(-191px ,58px);
+}
+	.slick-dots {
+		left: -18px;
+		bottom: -171px !important;
+	}
+	.prevButton {
+		left: 82px;
+		bottom: -181px;
+	}
+	.nextButton {
+		right: 99px;
+		bottom: -183px;
+	}
+	.men__collection-right {
+		right: 21px;
+  }
+  .men__collection-left {
+	left: -5px;
+  }
+  .leBorn {
+	transform: translate(-36px, 160px) rotate(-20deg);
+	height: 345px;
+  }
+  .men-collection-right-gen {
+	font-size: 20px;
+}
+.shop__nav li {
+	margin: 15px;
+}
+.men__background-p {
+	font-size: 280px;
+}
+ 
+}
+@media (max-width: 485px) {
+	.menF {
+		height: 513px;
+		transform: translate(-229px ,58px);
+	}
+	.men__collection-right {
+		right: 29px;
+  }
+  .logo__right {
+	left: 429px;
+}
+.TBS {
+	transform: translate(60px, 187px) rotate(30deg);
+}
+.social a {
+	margin-right: 28px;
+}
+}
+@media (max-width: 460px) {
+	.nikeWom {
+		transform: translate(13px, 288px) rotate(20deg);
+  }
+  .nikeWomRM {
+	transform: translate(29px, 197px) rotate(20deg);
+}
+.nikeWL {
+	transform: translate(10px, 20px) rotate(20deg);
+}
+	.logo__right {
+		left: 392px;
+  }
+  .menF {
+	height: 495px;
+	transform: translate(-221px ,93px);
+}
+.men__collection-right {
+	top: 276px;
+}
+.leBorn {
+	transform: translate(-40px, 172px) rotate(-20deg);
+	height: 327px;
+}
+}
+@media (max-width: 425px) {
+	.slick-list {
+		transform: translate(-28px, 147px) !important;
+  }
+  .menF {
+	height: 463px;
+	transform: translate(-192px ,93px);
+}
+.men__collection-right {
+	top: 253px;
+		right: 11px;
+  
+}
+.slick-dots {
+ 
+	bottom: -215px !important;
+}
+.prevButton {
+	left: 49px;
+	bottom: -225px;
+}
+.nextButton {
+	right: 75px;
+	bottom: -227px;
+}
+.leBorn {
+	transform: translate(-3px, 172px) rotate(-20deg);
+	height: 295px;
+}
+
+.TBS {
+	height: 261px;
+}
+
+}

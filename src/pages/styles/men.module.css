@@ -1,0 +1,364 @@
+.container {
+	position: relative;
+	max-width: 1240px;
+	margin: 0 auto;
+}
+ 
+ 
+.shop__logo {
+	margin: 0 !important;
+	position: absolute;
+	top: 20px;
+	left: calc(100% - 127%);
+}
+.men__background-p {
+	font-size: 640px;
+	z-index: -1;
+	line-height: 600px;
+	user-select: none;
+	color: rgba(255, 255, 255, 0.034);
+ 
+}
+.shop__logo svg {
+	fill: var(--theme-color-pr)
+}
+.logo__right {
+	position: absolute;
+	top: 33px;
+	left: calc(100% - -19%);
+	transform: rotate(50deg);
+	display: flex;
+}
+.logo__right div {
+	width: 3px;
+	margin: 3px;
+	height: 33px;
+	background-color: #55cbfa;
+}
+.logo__right div:first-child {
+	height: 20px;
+	margin-top: 10px;
+}
+.logo__right div:last-child {
+	height: 20px;
+	margin-top: 10px;
+}
+.shop__search {
+	margin-right: 60px !important;
+	cursor: pointer;
+}
+.content {
+	height: 100vh;
+ 
+}
+.shop__search svg {
+	stroke: var(--white-color);
+	transition: .3s ease stroke;
+}
+ 
+.shop__search:hover .shop__search-target {
+	opacity: 1;
+	left: 9%;
+}
+.shop__search-target.focusInp {
+	opacity: 1;
+	left: 9%;
+}
+.shop__search svg:hover {
+	stroke: var(--theme-color-pr);
+}
+.shop__header {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.shop__nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.shop__nav li {
+	z-index: 1;
+	 
+	margin: 35px;
+	list-style: none;
+}
+.shop__nav li a:hover {
+	color: var(--theme-color-pr);
+}
+.shop__nav li a {
+	transition: .3s ease color;
+	color: var(--white-color);
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.slick-slide div div {
+	outline: none;
+	position: relative;
+}
+.men__collection-left {
+	position: absolute;
+	top: 360px;
+	left: 200px;
+	z-index: 10;
+}
+
+ 
+.men__collection-left h1 {
+	font-size: 75px;
+	background: linear-gradient(110.91deg, #543B9B 0%, var(--theme-color-pr) 147.54% );
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+}
+.men__collection-left h1 span {
+	font-weight: 300;
+}
+.men-collection-right-gen {
+	transform: translateY(-10px);
+	font-weight: 300;
+	font-size: 35.5px;
+}
+.men-collection-right-desc {
+	font-size: 17.3px;
+	color: var(--grey-color);
+	font-weight: 300;
+}
+.men-collection-right-add-basket {
+	display: flex;
+	margin-top: 50px;
+	color: #000;
+	background: linear-gradient(110.91deg, #b731c4 0%, #1d0020 147.54%, #000000 180.43%);;
+	align-items: center;
+	padding: 16px 21px;
+	border: none;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 8px 24px 0px rgba(161, 0, 255, 0.2);
+-moz-box-shadow: 0px 8px 24px 0px rgba(161, 0, 255, 0.2);
+box-shadow: 0px 8px 24px 0px rgba(161, 0, 255, 0.2);
+	border-radius: 50%;
+	font-size: 20px;
+	justify-content: center;
+	transition: .3s ease all;
+}
+.men-collection-right-add-basket:hover {
+	color: var(--white-color);
+	-webkit-box-shadow: 0px 0px 38px 0px rgba(255, 0, 248, 0.2);
+	-moz-box-shadow: 0px 0px 38px 0px rgba(255, 0, 248, 0.2);
+	box-shadow: 0px 0px 38px 0px rgba(255, 0, 248, 0.2);
+}
+.men-collection-right-add-basket p {
+	position: absolute;
+	top: -50px;
+	left: -150px;
+	color: var(--white-color);
+	transition: .3s ease all;
+	padding: 10px 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	font-size: 14px;
+	color: #000;
+	font-weight: 600;
+	opacity: 0; 
+	background: linear-gradient(110.91deg, #543B9B 0%, #831ABC 147.54% );
+}
+.men-collection-right-add-basket:hover p {
+	opacity: 1;
+	left: 0;
+}
+.men__collection-right {
+	position: absolute;
+	width: 190px;
+	top: 540px;
+	right: 360px;
+}
+.men__collection-right h4 {
+	font-size: 50px;
+}
+.men__collection-right-sizes {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.men__collection-right-sizes div {
+	margin: 0 50px 10px 0px;
+	font-weight: 300;
+}
+.select-size {
+	cursor: pointer;
+	font-size: 23px;
+	transition: .3s ease all;
+}
+.select-size:hover {
+	color: #55cbfa;
+}
+.select-size:hover svg {
+	fill: var(--theme-color-pr);
+}
+.select-size svg {
+	fill: var(--white-color);
+	position: absolute;
+	top: 12px;
+	transition: .3s ease all;
+	right: -20px;
+}
+.select-color {
+	cursor: pointer;
+	font-size: 23px;
+	transition: .3s ease all;
+}
+.select-color:hover {
+	color: #55cbfa;
+}
+.select-color:hover svg {
+	fill: var(--theme-color-pr);
+}
+.select-color svg {
+	fill: var(--white-color);
+	position: absolute;
+	top: 12px;
+	right: -20px;
+	transition: .3s ease all;
+}
+.UK {
+	color: var(--grey-color);
+}
+.men__collection-right-sizes .btn {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	margin-top: 6px;
+	margin-left: 7px;
+	border: 2px solid var(--grey-color);
+}
+.men__collection-right-buy {
+	font-size: 35px;
+	cursor: pointer;
+	color: #55cbfa;
+	transition: color .3s ease;
+}
+.men__collection-right-buy:hover {
+	color: #01374d;
+}
+.slick-dots {
+	position: fixed;
+	bottom: 40px;
+	left: 0;
+ 
+}
+.slick-dots li button::before{
+	font-size: 40px;
+	content: '○';
+	color: var(--theme-color-pr);
+	font-weight: 900;
+}
+.slick-dots .slick-active button::before {
+	content: '●';
+ 
+	color: var(--theme-color-pr) !important;
+}
+.prevButton {
+	position: fixed;
+	bottom: 30px;
+	left: 700px;
+	cursor: pointer;
+	z-index: 10;
+}
+.prevButton svg {
+	transition: .3s ease all;
+	fill: var(--theme-color-pr);
+	transform:  rotate(90deg);
+}
+.nextButton {
+	position: fixed;
+	bottom: 30px;
+	right: 700px;
+	cursor: pointer;
+	z-index: 10;
+}
+.nextButton:hover svg{
+	fill: #13485e;
+}
+.prevButton:hover svg{
+	fill: #360c4d;
+}
+.nextButton svg {
+	fill: #55cbfa;
+	transition: .3s ease all;
+	transform:  rotate(-90deg);
+}
+footer {
+	position: fixed;
+	bottom: 30px;
+	right: 100px;
+}
+.social a {
+	margin-right: 60px;
+}
+.social a svg {
+	fill: #55cbfa;
+	transition: .3s ease fill;
+}
+.social a svg:hover {
+	fill:#55cbfa83
+}
+.leBorn {
+	transform: translate(350px, 180px) rotate(-20deg);
+}
+.TBS {
+	transform: translate(500px, 180px) rotate(20deg);
+}
+.nikeWom {
+	transform: translate(480px, 250px) rotate(20deg);
+}
+.slick-track {
+	height: 100%;
+}
+.nikeWomRM {
+	transform: translate(480px, 30px) rotate(20deg);
+}
+.nikeWomVio {
+	transform: translate(350px, 140px) rotate(20deg);
+}
+.nikeWL {
+	transform: translate(450px, -300px) rotate(20deg);
+}
+.shop__search-target {
+	position: absolute;
+	top: 34px;
+	left: 0%;
+	background-color: #0D0D0D;
+	opacity: 0;
+	transition: .3s ease all;
+	padding: 10px;
+	border: 2px solid #543B9B;
+	border-radius: 20px;
+ 
+	color: var(--white-color);
+	outline: none;
+	padding-left: 18px;
+	transform: translate(-10px,-5px);
+}
+.shop__search-products {
+	position: absolute;
+	left: 0;
+	top: -20px;
+	width: 500px;
+ 	z-index: -100;
+	border-radius: 20px;
+	max-height: 600px;
+	overflow: auto;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	opacity: 0;
+	transition: .3s ease all;
+	padding-bottom: 20px;
+	margin: 0 20px 0 20px;
+	background-color: var(--background-color);
+}
+.shop__search-products.productsView {
+	top: 80px;
+	opacity: 1;
+}

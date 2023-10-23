@@ -1,0 +1,334 @@
+.shop__content {
+	display: flex;
+	justify-content: center;
+ 
+}
+.shop__button-item {
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid var(--grey-color);
+	background-color: transparent;
+	color: var(--grey-color);
+	cursor: pointer;
+	transition: .3s ease all;
+}
+.shop__button-item:hover {
+	color: var(--theme-color-pr);
+	border-bottom-color: var(--theme-color-pr);
+}
+.activeShop {
+	
+	border-bottom-color: var(--theme-color-pr);
+}
+.shop__results {
+	padding: 20px;
+
+}
+.shop__results-length {
+	font-size: 17px;
+	color: var(--grey-color);
+}
+.shop__items {	
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.shop__item  {
+	background-color: rgb(22, 22, 22);
+	max-width: 210px;
+	margin: 20px 10px 20px 0;
+	padding: 10px;
+	border-radius: 20px;
+	position: relative;
+	cursor: pointer;
+	padding-bottom: 30px;
+}
+.shop__item img {
+	border-radius: 20px;
+	object-fit: cover;
+}
+.shop__item-title {
+	letter-spacing: 1px;
+	transition: .3s ease all;
+}
+.shop__item-subtitle {
+	transition: .3s ease all;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+ color:  var(--grey-color);
+}
+.shop__item-price {
+	transition: .3s ease all;
+	font-size: 20px;
+	margin-top: 10px;
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+.shop__items-colors {
+	margin-top: 10px;
+}
+.like {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background-color: transparent;
+	border: none;
+}
+.like svg {
+	cursor: pointer;
+ 
+	transition: .3s ease all;
+ 
+}
+.seeMore {
+	position: absolute;
+	top: 230px;
+	right: 20px;
+	fill: var(--white-color);
+	transition: .3s ease all;
+}
+.shop__item:hover .seeMore{
+	fill: var(--theme-color-pr);
+	transform: rotate(-90deg);
+}
+.shop__item:hover .shop__item-title  {
+	transform: translateX(10px);
+	color: var(--theme-color-pr);
+}
+.shop__item:hover .shop__item-subtitle {
+	transform: translateX(10px);
+}
+.shop__item:hover .shop__item-price {
+	transform: translateX(10px);
+	color: var(--grey-color);
+}
+.shop__items-colors span {
+	transition: .3s ease all;
+}
+.shop__item:hover .shop__items-colors span {
+	color: var(--theme-color-pr);
+}
+.like svg:hover {
+	fill: red;
+}
+.see__shop-item {
+	 
+	z-index: 10;
+	position: fixed;
+	transition: .3s ease all;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	bottom: 0;
+	left: 50%;
+	max-width: 800px;
+	transform: translateX(-50%);
+	background-color: rgb(22, 22, 22);
+	padding: 15px;
+}
+.see__shop-item img {
+	 
+	object-fit: cover;
+	border-radius: 20px;
+}
+.see__shop-item-subtitle {
+	padding: 10px;
+	color: var(--grey-color);
+}
+.see__shop-item-title {
+	font-size: 25px;
+	padding-left: 10px;
+}
+.see__shop-item-unik {
+	padding-left: 10px;
+	color: var(--grey-color);
+}
+.see__shop-item-price {
+	font-size: 26px;
+	padding: 10px 0 10px 10px;
+}
+.wrapper__see-shop-wr {
+	padding: 0 10px;
+}
+.see__shop-navig svg{
+	fill: var(--white-color);
+	padding-left: 10px;
+	cursor: pointer;
+	transition: .3s ease fill;
+}
+.see__shop-navig svg:first-child:hover {
+	fill: var(--theme-color-pr);
+}
+.see__shop-navig svg:last-child:hover {
+	fill: red;
+}
+.wrapper__see-shop {
+	display: flex;
+	justify-content: space-between;
+}
+.see__shop-item-desc {
+	padding-left: 10px;
+	font-size: 17px;
+}
+.see__shop-ino {
+	padding: 10px 0 10px 10px;
+	color: var(--grey-color);
+}
+.see__shop-sizes-item {
+	cursor: pointer;
+	border: 2px solid var(--white-color);
+	border-radius: 50%;
+	width: 55px;
+	height: 55px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10px;
+	transition: .3s ease all;
+}
+.see__shop-sizes-item:hover {
+	border-color: var(--grey-color);
+	color: var(--grey-color);
+}
+.see__shop-sizes {
+	display: flex;
+}
+.see__shop-add-basket {
+	padding: 14px;
+	width: 100%;
+	border-radius: 24px;
+	 
+	font-weight: 600;
+	margin-top: 20px;
+	border: none;
+	transition: .3s ease all;
+	cursor: pointer;
+}
+.see__shop-add-basket:hover {
+	background-color: rgba(0, 0, 0, 0.161);
+	color: var(--white-color);
+}
+.close {
+	bottom: -850px;
+}
+.bg__see-shop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.485);
+	z-index: 1;
+	cursor: pointer;
+	transition: .3s ease all;
+}
+.closeBG {
+	opacity: 0;
+	z-index: -1;
+}
+.liked svg {
+	fill: red;
+}
+.transparent {
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+.shop__items-loading {
+	font-size: 20px;
+	color: var(--grey-color);
+ 
+}
+.lds-roller {
+	display: inline-block;
+	position: relative;
+	width: 80px;
+	height: 80px;
+ }
+ .lds-roller div {
+	animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+	transform-origin: 40px 40px;
+ }
+ .lds-roller div:after {
+	content: " ";
+	display: block;
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: var(--theme-color-pr);
+	margin: -4px 0 0 -4px;
+ }
+ .lds-roller div:nth-child(1) {
+	animation-delay: -0.036s;
+ }
+ .lds-roller div:nth-child(1):after {
+	top: 63px;
+	left: 63px;
+ }
+ .lds-roller div:nth-child(2) {
+	animation-delay: -0.072s;
+ }
+ .lds-roller div:nth-child(2):after {
+	top: 68px;
+	left: 56px;
+ }
+ .lds-roller div:nth-child(3) {
+	animation-delay: -0.108s;
+ }
+ .lds-roller div:nth-child(3):after {
+	top: 71px;
+	left: 48px;
+ }
+ .lds-roller div:nth-child(4) {
+	animation-delay: -0.144s;
+ }
+ .lds-roller div:nth-child(4):after {
+	top: 72px;
+	left: 40px;
+ }
+ .lds-roller div:nth-child(5) {
+	animation-delay: -0.18s;
+ }
+ .lds-roller div:nth-child(5):after {
+	top: 71px;
+	left: 32px;
+ }
+ .lds-roller div:nth-child(6) {
+	animation-delay: -0.216s;
+ }
+ .lds-roller div:nth-child(6):after {
+	top: 68px;
+	left: 24px;
+ }
+ .lds-roller div:nth-child(7) {
+	animation-delay: -0.252s;
+ }
+ .lds-roller div:nth-child(7):after {
+	top: 63px;
+	left: 17px;
+ }
+ .lds-roller div:nth-child(8) {
+	animation-delay: -0.288s;
+ }
+ .lds-roller div:nth-child(8):after {
+	top: 56px;
+	left: 12px;
+ }
+ @keyframes lds-roller {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+ }
+.shop__items-loading-wrapper {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 30px);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
